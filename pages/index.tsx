@@ -12,8 +12,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className=" bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
-        <div className="main container max-w-screen-xl mx-auto px-5 py-5 bg-slate-200">
+      <div className="flex h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
+        <div className="main container max-w-screen-xl m-auto object-center px-5 py-5 bg-slate-200">
             <div>
               <EdgeShape />
             </div>
