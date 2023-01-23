@@ -27,9 +27,10 @@ export default function Home() {
               <footer>
 
               </footer>
+              
+              </div>
               <div className='rotate-180'>
                 <EdgeShape />
-              </div>
             </div>
 
         </div>
