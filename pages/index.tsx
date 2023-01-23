@@ -14,7 +14,6 @@ export default function Home() {
       </Head>
       <div className=" bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
         <div className="main container max-w-screen-xl mx-auto px-5 py-5 bg-slate-200">
-          <div className='main-container-inner'>
             <div>
               <EdgeShape />
             </div>
@@ -28,11 +27,10 @@ export default function Home() {
               <footer>
 
               </footer>
-              <div className='absolute bottom-0 right-0'>
+              <div className='rotate-180'>
                 <EdgeShape />
               </div>
             </div>
-          </div>
 
         </div>
       </div>
