@@ -13,14 +13,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
-        <div className="main container max-w-screen-xl m-auto object-center px-5 py-5 bg-slate-200">
+        <div className="main container max-w-screen-xl m-auto object-center  bg-slate-200">
+        <div className="bg-gray-300 max-w-screen-xl">
+        <div className="w-96 h-96 relative z-0">
+
             <div>
               <EdgeShape />
+              
             </div>
-            <div className='inner-container'>
-              <header>
+            
+            <div className="absolute inset-0 flex justify-center items-center ">
+      <p className="text-5xl font-bold px-35">Hello</p>
+    </div>
+           </div> 
+            <div className='container md h-9'>
 
-              </header>
               <main>
 
               </main>
@@ -35,7 +42,8 @@ export default function Home() {
 
         </div>
       </div>
-      
+  </div>
+
     </>
   )
 }
