@@ -14,35 +14,33 @@ export default function Home() {
       </Head>
       <div className="flex h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
         <div className="main container max-w-screen-xl m-auto object-center  bg-slate-200">
-        <div className="bg-gray-300 max-w-screen-xl">
-        <div className="w-96 h-96 relative z-0">
+            <div className="flex flex-row">
+              <div className="basis-1/3"><div>
+                <EdgeShape />
 
-            <div>
-              <EdgeShape />
-              
-            </div>
-            
-            <div className="absolute inset-0 flex justify-center items-center ">
-      <p className="text-5xl font-bold px-35">Hello</p>
-    </div>
-           </div> 
-            <div className='container md h-9'>
-
-              <main>
-
-              </main>
-              <footer>
-
-              </footer>
-              
-              </div>
+              </div></div>
+              <div className="basis-1/3"><div className="absolute inset-0 flex justify-center items-center ">
+                <p className="text-5xl font-bold px-35">Hello</p>
+              </div></div>
+              <div className="basis-1/3"> 
+              <p>yalla</p>            
               <div className='rotate-180'>
                 <EdgeShape />
+              </div></div>
             </div>
+
+            <div className="absolute inset-0 flex justify-center items-center ">
+              <p className="text-5xl font-bold px-35">Hello</p>
+            </div>              <main>
+
+            </main>
+            <footer>
+
+            </footer>
+
 
         </div>
       </div>
-  </div>
 
     </>
   )
